@@ -4,7 +4,7 @@ from tkinter import simpledialog
 from datetime import datetime, timedelta
 import uuid
 from tkinter import ttk
-
+   
 class Appointment:
     def __init__(self, root, db, user, dashboard, barber=None, add=False):
         self.root = root
