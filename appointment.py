@@ -39,7 +39,7 @@ class Appointment:
         tk.Button(self.frame, text='Back', command=self.back).pack()
         
 
-    
+    #suck me
 
     def add_appointments(self):
         start_time = datetime.strptime(self.start_var.get(), "%H:%M")
